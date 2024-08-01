@@ -8,7 +8,7 @@ The application offers distinct user interfaces tailored for donors, hospitals, 
 
 Organizations benefit from a dedicated interface comprising multiple modules, including a customizable dashboard that presents real-time insights, analytics tools for performance evaluation, advanced filtering options to efficiently manage blood inventory, and activity tracking to monitor blood consumption trends. 
 
-Through careful consideration of technical implementation, the BloodBank application ensures seamless communication between users and the system while maintaining data privacy and security.
+Through careful consideration of technical implementation , the BloodBank application ensures seamless communication between users and the system while maintaining data privacy and security.
 
 # <h3>Tech Stacks</h3>
 
