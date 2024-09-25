@@ -5,15 +5,16 @@ import { getDateFormat } from "../utils/helpers";
 import { SetLoading } from "../redux/loadersSlice";
 import { Table, message } from "antd";
 
+//table component for each user
 function InvetoryTable({ filters, userType, limit }) {
-  const [data, setData] = React.useState([]);
-  const [open, setOpen] = React.useState(false);
+  const [data, setData] = React.useState([]); //setting the recent donations result in this
+  //const [open, setOpen] = React.useState(false);
   const dispatch = useDispatch();
   const columns = [
     {
       title: "Inventory Type",
       dataIndex: "inventoryType",
-      render: (text) => text.toUpperCase(),
+      render: (text) => text.toUpperCase(),//
     },
     {
       title: "Blood Group",
@@ -72,13 +73,14 @@ function InvetoryTable({ filters, userType, limit }) {
       dispatch(SetLoading(false));
     }
   };
-
+//on loading the page first time getData will be called
   React.useEffect(() => {
     getData();
   }, []);
+
   return (
     <div>
-      <Table columns={columns} dataSource={data} className="mt-3" />
+      <Table columns={columns} dataSource={data} className="mt-3" />{/* antD syntax */}
     </div>
   );
 }

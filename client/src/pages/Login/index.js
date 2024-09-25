@@ -7,7 +7,7 @@ import { SetLoading } from "../../redux/loadersSlice";
 import { getAntdInputValidation } from "../../utils/helpers";
 
 function Login() {
-  const [type, setType] = React.useState("donar");
+  const [type, setType] = React.useState("donor");
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const onFinish = async (values) => {
@@ -54,7 +54,7 @@ function Login() {
           value={type}
           className=""
         >
-          <Radio value="donar">Donar</Radio>
+          <Radio value="donar">Donor</Radio>
           <Radio value="hospital">Hospital</Radio>
           <Radio value="organization">Organization</Radio>
         </Radio.Group>

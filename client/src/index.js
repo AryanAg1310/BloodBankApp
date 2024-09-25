@@ -10,7 +10,8 @@ import store from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <ConfigProvider
+  
+    <ConfigProvider 
       theme={{
         token: {
           colorPrimary: "#802828",
@@ -23,4 +24,4 @@ root.render(
   </Provider>
 );
 
-reportWebVitals();
+

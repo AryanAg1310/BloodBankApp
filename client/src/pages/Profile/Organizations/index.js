@@ -9,7 +9,7 @@ import { Modal, Table, message } from "antd";
 import { getDateFormat } from "../../../utils/helpers";
 import InvetoryTable from "../../../components/InvetoryTable";
 
-function Organizations({ userType }) {
+function  Organizations({ userType }) {
   const [showHistoryModal, setShowHistoryModal] = React.useState(false);
   const { currentUser } = useSelector((state) => state.users);
   const [selectedOrganization, setSelectedOrganization] = React.useState(null);

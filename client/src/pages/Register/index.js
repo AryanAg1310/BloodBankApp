@@ -8,13 +8,13 @@ import { SetLoading } from "../../redux/loadersSlice";
 import { getAntdInputValidation } from "../../utils/helpers";
 
 function Register() {
-  const [type, setType] = React.useState("donar");
+  const [type, setType] = React.useState("donor");
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const onFinish = async (values) => {
     try {
       dispatch(SetLoading(true));
-      const response = await RegisterUser({
+      const response = await RegisterUser({ //axios is called here
         ...values,
         userType: type,
       });
@@ -56,7 +56,7 @@ function Register() {
           value={type}
           className="col-span-2"
         >
-          <Radio value="donar">Donar</Radio>
+          <Radio value="donar">Donor</Radio>
           <Radio value="hospital">Hospital</Radio>
           <Radio value="organization">Organization</Radio>
         </Radio.Group>

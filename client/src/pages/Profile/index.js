@@ -17,7 +17,7 @@ function Profile() {
             <Tabs.TabPane tab="Inventory" key="1">
               <Inventory />
             </Tabs.TabPane>
-            <Tabs.TabPane tab="Donars" key="2">
+            <Tabs.TabPane tab="Donors" key="2">
               <Donars />
             </Tabs.TabPane>
             <Tabs.TabPane tab="Hospitals" key="3">

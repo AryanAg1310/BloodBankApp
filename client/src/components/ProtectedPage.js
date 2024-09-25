@@ -18,7 +18,7 @@ function ProtectedPage({ children }) {
       dispatch(SetLoading(false));
       if (response.success) {
         message.success(response.message);
-        dispatch(SetCurrentUser(response.data));
+        dispatch(SetCurrentUser(response.data)); //updating the redux store with current user
       } else {
         throw new Error(response.message);
       }
@@ -42,7 +42,7 @@ function ProtectedPage({ children }) {
         {/* header */}
         <div className="flex justify-between items-center bg-primary text-white px-5 py-3 mx-5 rounded-b">
           <div onClick={() => navigate("/")} className="cursor-pointer">
-            <h1 className="text-2xl">SHEY BLOODBANK</h1>
+            <h1 className="text-2xl">DONOR CONNECT</h1>
             <span className="text-xs">
               {currentUser.userType.toUpperCase()}
             </span>

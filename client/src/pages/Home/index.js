@@ -6,6 +6,7 @@ import { message } from "antd";
 import { getLoggedInUserName } from "../../utils/helpers";
 import InvetoryTable from "../../components/InvetoryTable";
 
+//home pages of all 3 users in this file
 function Home() {
   const { currentUser } = useSelector((state) => state.users);
   const [bloodGroupsData = [], setBloodGroupsData] = useState([]);

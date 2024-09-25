@@ -8,12 +8,12 @@ import { getDateFormat } from "../../../utils/helpers";
 
 function Inventory() {
   const [data, setData] = React.useState([]);
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);//to manage the dialog box of add inventory
   const dispatch = useDispatch();
   const columns = [
     {
       title: "Inventory Type",
-      dataIndex: "inventoryType",
+      dataIndex: "inventoryType", //which data it's referring to from response
       render: (text) => text.toUpperCase(),
     },
     {

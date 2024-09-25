@@ -38,7 +38,7 @@ low-level CSS framework that gives you all of the building blocks you need to bu
 <img width="700" alt="Screenshot 2023-07-02 053747" src="https://github.com/cusp13/BloodBank-web/assets/108236157/28587c42-c73e-4c1f-b620-1f984face4fc">
 <h4>Organization Registration page</h4>
 <img width="700" alt="Screenshot 2023-07-02 053759" src="https://github.com/cusp13/BloodBank-web/assets/108236157/1b06f375-69d3-4043-b291-25f26ffde11a">
-<h4>Donar Login page</h4>
+<h4>Donor Login page</h4>
 <img width="700" alt="Screenshot 2023-07-02 053630" src="https://github.com/cusp13/BloodBank-web/assets/108236157/f25aa5b0-49ec-4d48-b729-66ba8c7ea779">
 <h4>Hospital Login page</h4>
 <img width="700" alt="Screenshot 2023-07-02 053645" src="https://github.com/cusp13/BloodBank-web/assets/108236157/1ed1fb68-0c7a-496b-81d5-b1c389f9b29e">
